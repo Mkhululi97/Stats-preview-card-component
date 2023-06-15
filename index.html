@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Stats preview card component</title>
 
-  Get insights that help your business grow.
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+      }
+      .attribution a {
+        /* color: hsl(228, 45%, 44%); */
+        color: hsl(277, 64%, 61%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="main-container">
+        <div class="description-container">
+          <h4 class="heading-h4">
+            Get <span class="span-text">insights</span> that help your business
+            grow.
+          </h4>
+          <p class="paragraph-text">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats stats--1">
+            <h5 class="heading-5">10k+</h5>
+            <p class="paragraph-stats">companies</p>
+          </div>
+          <div class="stats stats--2">
+            <h5 class="heading-5">314</h5>
+            <p class="paragraph-stats">templates</p>
+          </div>
+          <div class="stats stats--3">
+            <h5 class="heading-5">12m+</h5>
+            <p class="paragraph-stats">queries</p>
+          </div>
+        </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <div class="image-container">
+          <img
+            class="image-header"
+            src="./images/image-header-mobile.jpg"
+            alt="a young lady on her laptop, with her colleagues sharing a desktop together"
+          />
+        </div>
+      </div>
+    </main>
 
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
