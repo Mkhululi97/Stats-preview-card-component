@@ -93,9 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [fit-content()(grid) resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content_function) - This helped me for making the grid cell fit the content inside it. This is such a neat solution for grid rows or columns that take up more space than needed, which can affect things such as padding or margins.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [equal top and bottom padding resource 2](https://www.vanseodesign.com/blog/demo/vertical-centering/padding.php#:~:text=Equal%20top%20and%20bottom%20paddings,both%20divs%20to%20grow%20dynamically.) - This helped me get unstuck on, how to get equal spaces for top and bottom margins/paddings.
 
 ## Author
 
