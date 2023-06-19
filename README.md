@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL Here](https://your-solution-url.com)
+- Solution URL: [Solution URL Here](https://www.frontendmentor.io/solutions/statspreviewcardcomponent-LcnxyZn_sY)
 - Live Site URL: [Live Site URL](https://mkhululi97.github.io/Stats-preview-card-component/)
 
 ## My process
@@ -59,6 +59,7 @@ I'm not comfortable with changing images color with css, and spacing elements, g
 
 - [fit-content()(grid) resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content_function) - This helped me for making the grid cell fit the content inside it. This is such a neat solution for grid rows or columns that take up more space than needed, which can affect things such as padding or margins.
 - [equal top and bottom padding resource 2](https://www.vanseodesign.com/blog/demo/vertical-centering/padding.php#:~:text=Equal%20top%20and%20bottom%20paddings,both%20divs%20to%20grow%20dynamically.) - This helped me get unstuck on, how to get equal spaces for top and bottom margins/paddings.
+- [change image color using css](https://www.delftstack.com/howto/css/css-change-image-color/) - This helped change the headers image, color from black and white, to Soft violet.
 
 ## Author
 
