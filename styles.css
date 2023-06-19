@@ -13,10 +13,18 @@ body {
 html {
   font-size: 62.5%;
 }
+/*----- IMAGES -----*/
+.image-header {
+  max-width: 100%;
+  -webkit-filter: opacity(0.25) drop-shadow(0 0 0 hsl(277, 64%, 61%));
+}
 .image--header--desktop {
   display: none;
 }
-/* ----- FONT COLORS ----- */
+.image--header--mobile {
+  border-radius: 11px 11px 0 0;
+}
+/*----- FONT COLORS -----*/
 .heading-h4,
 .heading-h5 {
   color: hsl(0, 0%, 100%);
@@ -25,8 +33,7 @@ html {
 .paragraph-stats {
   color: hsla(0, 0%, 100%, 0.75);
 }
-
-/* ----- FONT SIZES ----- */
+/*----- FONT SIZES -----*/
 .heading-h4 {
   font-size: 2.5rem;
   margin-block-end: 20px;
@@ -49,7 +56,7 @@ html {
   font-size: 1em;
   text-transform: uppercase;
 }
-/* ----- CONTAINERS ----- */
+/*----- CONTAINERS -----*/
 .main-content {
   display: flex;
   justify-content: center;
@@ -59,6 +66,7 @@ html {
 }
 .main-container {
   margin-block: 15%;
+  border-radius: 11px;
   display: grid;
   grid-template-rows: fit-content(100%) 1fr;
   background-color: hsl(244, 38%, 16%);
@@ -76,14 +84,12 @@ html {
 .image-container {
   grid-row: 1/2;
 }
-.image-header {
-  max-width: 100%;
-}
+
 .span-text {
   color: hsl(277, 64%, 61%);
 }
 .stats-container {
-  padding: 10px;
+  padding-block: 10px;
 }
 .stats {
   margin-bottom: 25px;
@@ -97,8 +103,9 @@ html {
   .image--header--desktop {
     display: block;
     width: 100%;
+    border-radius: 0 11px 11px 0;
   }
-  /* ----- TEXT ----- */
+  /*----- TEXT -----*/
   .heading-h4 {
     font-size: 3.4rem;
     letter-spacing: 0.8px;
@@ -120,7 +127,7 @@ html {
     font-size: 1.1rem;
     letter-spacing: 1.2px;
   }
-  /* ----- CONTAINERS ----- */
+  /*----- CONTAINERS -----*/
   .main-container {
     margin-block: 12%;
     grid-template-columns: 1fr 1fr;
